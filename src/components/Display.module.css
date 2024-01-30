@@ -1,0 +1,21 @@
+.display{
+  margin: 40px;
+}
+.display input{
+  width: 36rem;
+  border: 1px solid rgb(17, 16, 16);
+  border-radius: 10px;
+  outline: none;
+  padding: 2rem;
+  margin: 1rem;
+  background: transparent;
+  color: #fff;
+
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  box-shadow: rgba(111, 111, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input::placeholder{
+  color: #fff;
+}

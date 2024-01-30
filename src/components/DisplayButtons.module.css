@@ -1,0 +1,40 @@
+button{
+  width: 60px;
+  height: 70px;
+  margin: 1rem;
+  background: transparent;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: -5px -6px 15px #000;
+  outline: 1px solid #313131;
+  outline-offset: 3px;
+  cursor: pointer;
+  /* margin-left: 1rem; */
+}
+.buttonsContainer{
+  width: 450px;
+  display: flex;
+  /* border: 3px solid red; */
+  flex-wrap: wrap;
+  padding: 0 4rem;
+  justify-content: space-around;
+}
+
+button:active{
+  background: #000;
+  transform: translate(2px,3px);
+}
+
+.opr{
+  color: #fbff00;
+  background: #1e1919;
+  font-weight: 700;
+}
+
+#eqBtn{
+  background-color: orangered;
+  font-weight: 900;
+}
